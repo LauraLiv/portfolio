@@ -11,8 +11,22 @@ img {
   display: block;
 }
 
-/*************** h1 *********************/
+/*************** body *********************/
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+}
+
+/*************** header *********************/
+header {
+  background-color: black;
+}
+/*************** main *********************/
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 4rem;
 }
+
+/*************** footer *********************/
