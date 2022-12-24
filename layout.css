@@ -1,5 +1,5 @@
 @media (min-width: 800px) {
-  .om_mig {
+  .grid_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
