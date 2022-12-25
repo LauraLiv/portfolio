@@ -39,16 +39,15 @@ a {
 
 main {
   padding: 10px 30px;
+  color: white;
 }
 
 h1 {
-  color: white;
   font-size: 4rem;
   text-align: center;
 }
 
 p {
-  color: white;
   font-size: 1rem;
 }
 
