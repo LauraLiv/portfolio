@@ -28,6 +28,12 @@ header {
 
 header .logo {
   font-size: 2.5rem;
+  float: left;
+}
+
+ul {
+  float: right;
+  gap: 60px;
 }
 
 a {
@@ -48,12 +54,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 /*************** footer *********************/
