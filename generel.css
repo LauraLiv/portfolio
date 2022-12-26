@@ -22,7 +22,6 @@ body {
 
 header {
   padding: 10px 20px;
-  font-size: 1.5rem;
 }
 
 header .logo {
@@ -30,9 +29,14 @@ header .logo {
   text-align: left;
 }
 
-ul {
-  text-align: right;
-  gap: 60px;
+header nav ul {
+  align-items: right;
+}
+
+header nav ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30%;
 }
 
 a {
