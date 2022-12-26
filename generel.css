@@ -22,22 +22,17 @@ body {
 
 header {
   padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header .logo {
   font-size: 2.5rem;
-  text-align: left;
 }
 
 header nav ul {
-  align-self: flex-end;
-  align-items: flex-end;
-}
-
-header nav ul li {
-  text-align: center;
   font-size: 1.5rem;
-  width: 30%;
+  flex-wrap: nowrap;
 }
 
 a {
