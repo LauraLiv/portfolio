@@ -32,9 +32,13 @@ header {
 }
 
 nav ul {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: flex;
   gap: 40px;
+}
+
+nav ul ul {
+  font-size: 1.4rem;
 }
 
 a {
