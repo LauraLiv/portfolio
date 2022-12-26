@@ -78,6 +78,46 @@ p {
   padding: 40px 20px;
 }
 
+/*************** elementer *********************/
+
+#forside_elementer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#lilla_container {
+  position: absolute;
+  width: 85%;
+  aspect-ratio: 2480/1210;
+  top: 10%;
+  left: 7%;
+}
+
+#lilla_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/index_lilla1.png);
+  background-size: cover;
+}
+
+#groen_container {
+  position: absolute;
+  width: 70%;
+  aspect-ratio: 1985/1030;
+  top: 30%;
+  left: 5%;
+}
+
+#groen_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/index_groen1.png);
+  background-size: cover;
+}
+
 /*************** footer *********************/
 
 footer {
