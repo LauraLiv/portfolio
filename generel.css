@@ -34,16 +34,27 @@ header {
 nav ul {
   font-size: 1.8rem;
   display: flex;
-  gap: 40px;
-}
-
-nav ul ul {
-  font-size: 1.4rem;
+  gap: 60px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+.menu_portfolio ul {
+  display: none;
+  position: absolute;
+}
+
+.menu_portfolio:hover ul {
+  font-size: 1.4rem;
+  display: block;
+  text-align: left;
+}
+
+.menu_portfolio:hover ul a {
+  color: purple;
 }
 
 /*************** main *********************/
