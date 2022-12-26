@@ -30,7 +30,8 @@ header .logo {
 }
 
 header nav ul {
-  align-items: right;
+  align-self: flex-end;
+  align-items: flex-end;
 }
 
 header nav ul li {
