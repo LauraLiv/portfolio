@@ -50,11 +50,6 @@ a {
 .menu_portfolio:hover ul {
   font-size: 1.4rem;
   display: block;
-  text-align: left;
-}
-
-.menu_portfolio:hover ul a {
-  color: purple;
 }
 
 /*************** main *********************/
