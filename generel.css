@@ -78,22 +78,22 @@ p {
   padding: 40px 20px;
 }
 
-/*************** elementer *********************/
+/*************** assets *********************/
 
-#forside_elementer {
+#screen {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/9;
 }
+
+/*************** forside assets *********************/
 
 #lilla_container {
   position: absolute;
-  width: 85%;
+  width: 90%;
   aspect-ratio: 2480/1210;
-  top: 10%;
-  left: 7%;
+  left: 8%;
 }
 
 #lilla_sprite {
@@ -107,14 +107,60 @@ p {
   position: absolute;
   width: 70%;
   aspect-ratio: 1985/1030;
-  top: 30%;
-  left: 5%;
+  top: 20%;
+  left: 3%;
 }
 
 #groen_sprite {
   width: 100%;
   height: 100%;
   background-image: url(assets/index_groen1.png);
+  background-size: cover;
+}
+
+#navn_container {
+  position: absolute;
+  width: 35%;
+  aspect-ratio: 870/160;
+  top: 73%;
+  left: 65%;
+}
+
+#navn_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/navn.svg);
+  background-size: cover;
+}
+
+/*************** portfolio assets *********************/
+
+#portfolio_lilla_container {
+  position: absolute;
+  width: 23%;
+  aspect-ratio: 585/265;
+  top: 3%;
+  left: 77%;
+}
+
+#portfolio_lilla_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/portfolio_lilla1.png);
+  background-size: cover;
+}
+
+#portfolio_groen_container {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 495/410;
+  top: 2%;
+}
+
+#portfolio_groen_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/portfolio_groen1.png);
   background-size: cover;
 }
 
