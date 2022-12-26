@@ -21,18 +21,20 @@ body {
 /*************** header *********************/
 
 header {
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 30px;
 }
 
-header .logo {
+.logo {
   font-size: 2.5rem;
 }
 
-header nav ul {
+nav ul {
   font-size: 1.5rem;
-  flex-wrap: nowrap;
+  display: flex;
+  gap: 40px;
 }
 
 a {
