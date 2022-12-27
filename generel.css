@@ -68,7 +68,9 @@ h2 {
   font-size: 2.5rem;
 }
 
-.center_h2 {
+.portfolio_h2,
+.design h2,
+.kodning h2 {
   font-size: 3rem;
   text-align: center;
 }
@@ -81,8 +83,20 @@ p {
   font-size: 1.5rem;
 }
 
+.design,
+.kodning {
+  margin-top: 60px;
+}
+
+.grid_1_1,
+.grid_2_1,
+.grid_2_1_1,
+.grid_1_2 {
+  margin-top: 40px;
+}
+
 .col {
-  padding: 40px 20px;
+  padding: 0px 15px;
 }
 
 /*************** assets *********************/
