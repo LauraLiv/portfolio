@@ -1,6 +1,5 @@
 @media (min-width: 800px) {
-  .grid_1_1,
-  .portfolio_grid_1_1 {
+  .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
