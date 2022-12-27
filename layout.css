@@ -1,11 +1,26 @@
 @media (min-width: 800px) {
-  .portfolio {
+  .grid_1_1,
+  .portfolio_grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .om_mig {
+  .grid_2_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .grid_2_1_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .col {
+    padding: 50px;
   }
 }
