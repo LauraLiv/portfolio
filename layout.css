@@ -18,8 +18,4 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
-  .col {
-    padding: 50px;
-  }
 }
