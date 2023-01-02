@@ -104,7 +104,7 @@ p {
 
 /*************** portfolio *********************/
 
-.portfolio img:hover {
+.portfolio .col:hover img {
   filter: brightness(40%);
 }
 
@@ -114,12 +114,12 @@ p {
 
 .portfolio .col p {
   position: absolute;
+  display: none;
   font-size: 5rem;
-  opacity: 0;
 }
 
 .portfolio .col:hover p {
-  opacity: 1;
+  display: block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
