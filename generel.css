@@ -90,6 +90,15 @@ p {
   font-size: 1.5rem;
 }
 
+main a {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.web a:hover {
+  font-style: italic;
+}
+
 .design,
 .kodning {
   margin-top: 70px;
@@ -110,7 +119,7 @@ p {
 /*************** portfolio *********************/
 
 .portfolio .col:hover img {
-  filter: brightness(40%);
+  filter: brightness(30%);
 }
 
 .portfolio .col {
