@@ -105,18 +105,21 @@ p {
 /*************** portfolio *********************/
 
 .portfolio img:hover {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
-.portfolio p:hover {
-  display: block;
+.portfolio .col {
+  display: flex;
 }
-.portfolio p {
-  display: none;
+
+.portfolio .col p {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
+  font-size: 3.5rem;
+  opacity: 0;
+}
+
+.portfolio .col:hover p {
+  opacity: 1;
 }
 
 /*************** assets *********************/
