@@ -109,17 +109,21 @@ p {
 }
 
 .portfolio .col {
-  display: flex;
+  position: relative;
 }
 
 .portfolio .col p {
   position: absolute;
-  font-size: 3.5rem;
+  font-size: 5rem;
   opacity: 0;
 }
 
 .portfolio .col:hover p {
   opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /*************** assets *********************/
