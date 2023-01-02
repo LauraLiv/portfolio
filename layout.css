@@ -24,3 +24,6 @@
     grid-template-columns: 1fr 3fr;
   }
 }
+
+@media (max-width: 800px) {
+}
