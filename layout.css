@@ -9,6 +9,11 @@
     grid-template-columns: 2fr 1fr;
   }
 
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
   .grid_2_1_1 {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;

@@ -52,6 +52,10 @@ a {
   display: block;
 }
 
+li {
+  list-style-type: none;
+}
+
 /*************** main *********************/
 
 main {
@@ -93,6 +97,7 @@ p {
 
 .grid_1_1,
 .grid_2_1,
+.grid_1_2,
 .grid_2_1_1,
 .grid_1_3 {
   margin-top: 40px;
