@@ -99,6 +99,10 @@ p {
   padding: 10px 10px;
 }
 
+.portfolio img {
+  border: 3px solid rgb(162, 157, 157);
+}
+
 /*************** assets *********************/
 
 #screen {
