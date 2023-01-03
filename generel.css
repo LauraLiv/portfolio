@@ -152,15 +152,16 @@ main a {
 
 #lilla_container {
   position: absolute;
-  width: 90%;
-  aspect-ratio: 2480/1210;
+  width: 82%;
+  aspect-ratio: 2580/1300;
   left: 8%;
+  top: 7%;
 }
 
 #lilla_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(assets/index_lilla_11.png);
+  background-image: url(assets/index_lilla.svg);
   background-size: cover;
 }
 
@@ -168,14 +169,14 @@ main a {
   position: absolute;
   width: 70%;
   aspect-ratio: 1985/1030;
-  top: 20%;
-  left: 3%;
+  top: 27%;
+  left: 4%;
 }
 
 #groen_sprite {
   width: 100%;
   height: 100%;
-  background-image: url(assets/index_groen.png);
+  background-image: url(assets/index_groen.svg);
   background-size: cover;
 }
 
@@ -183,8 +184,8 @@ main a {
   position: absolute;
   width: 35%;
   aspect-ratio: 870/160;
-  top: 73%;
-  left: 65%;
+  top: 80%;
+  left: 60%;
 }
 
 #navn_sprite {
@@ -192,4 +193,76 @@ main a {
   height: 100%;
   background-image: url(assets/navn.svg);
   background-size: cover;
+}
+
+/*************** assets_effekter *********************/
+
+.stop {
+  animation-play-state: paused;
+}
+
+/*************** lilla *********************/
+
+.pos_lilla {
+  top: 7%;
+}
+
+.lilla {
+  animation-name: lilla_kf;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lilla_kf {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(8%);
+  }
+}
+
+/*************** groen *********************/
+
+.pos_groen {
+  top: 7%;
+}
+
+.groen {
+  animation-name: groen_kf;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes groen_kf {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(7%);
+  }
+}
+
+/*************** groen *********************/
+
+.pos_navn {
+  left: 60%;
+}
+
+.navn {
+  animation-name: navn_kf;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes navn_kf {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(80%);
+  }
 }
