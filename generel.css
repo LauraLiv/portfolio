@@ -16,6 +16,7 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   background-color: black;
+  overflow: hidden;
 }
 
 /*************** header *********************/
@@ -142,14 +143,6 @@ main a {
 
 /*************** assets *********************/
 
-#screen {
-  width: 100%;
-  overflow: hidden;
-  aspect-ratio: 16/9;
-}
-
-/*************** forside assets *********************/
-
 #lilla_container {
   position: absolute;
   width: 82%;
@@ -195,7 +188,7 @@ main a {
   background-size: cover;
 }
 
-/*************** assets_effekter *********************/
+/*************** assets stop *********************/
 
 .stop {
   animation-play-state: paused;
@@ -209,17 +202,17 @@ main a {
 
 .lilla {
   animation-name: lilla_kf;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 @keyframes lilla_kf {
   0% {
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(8%);
+    transform: translateX(0%);
   }
 }
 
@@ -231,38 +224,16 @@ main a {
 
 .groen {
   animation-name: groen_kf;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 @keyframes groen_kf {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(7%);
-  }
-}
-
-/*************** groen *********************/
-
-.pos_navn {
-  left: 60%;
-}
-
-.navn {
-  animation-name: navn_kf;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes navn_kf {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(80%);
+    transform: translateX(0%);
   }
 }

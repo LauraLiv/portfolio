@@ -1,9 +1,26 @@
+var lillaContainer = document.querySelector("#lilla_container");
+var groencontainer = document.querySelector("#groen_container");
+
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
   console.log("sidenVises");
 
-  //Skjul alle skærme
-  document.querySelector("#lilla_containor").classList.add("pos_lilla");
-  document.querySelector("#lilla_containor").classList.add("lilla");
+  //assets starter
+
+  lillaContainer.classList.add("pos_lilla");
+  lillaContainer.classList.add("lilla");
+
+  groencontainer.classList.add("pos_groen");
+  groencontainer.classList.add("groen");
+}
+
+function assetsStop() {
+  console.log("assetsStop");
+
+  //assets stopper
+
+  lillaContainer.classList.add("stop");
+
+  groencontainer.classList.add("stop");
 }
