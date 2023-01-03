@@ -16,7 +16,6 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   background-color: black;
-  overflow: hidden;
 }
 
 /*************** header *********************/
@@ -142,6 +141,10 @@ main a {
 }
 
 /*************** assets *********************/
+
+#screen {
+  overflow: hidden;
+}
 
 #lilla_container {
   position: absolute;
