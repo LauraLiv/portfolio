@@ -64,7 +64,7 @@ main {
 }
 
 img {
-  border: 3px solid rgb(162, 157, 157);
+  border: 1px solid white;
 }
 
 h1 {
@@ -74,12 +74,6 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-}
-
-.design h2,
-.kodning h2 {
-  font-size: 3rem;
-  text-align: center;
 }
 
 h3 {
@@ -97,11 +91,6 @@ main a {
 
 .web a:hover {
   font-style: italic;
-}
-
-.design,
-.kodning {
-  margin-top: 70px;
 }
 
 .grid_1_1,
@@ -141,10 +130,6 @@ main a {
 }
 
 /*************** assets *********************/
-
-#screen {
-  overflow: hidden;
-}
 
 #lilla_container {
   position: absolute;
