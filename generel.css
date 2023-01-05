@@ -67,7 +67,7 @@ h3 {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 main a {
@@ -124,12 +124,10 @@ main a {
   text-align: center;
 }
 
-.om_mig p {
+.om_mig p,
+.om_mig li {
   color: rgb(238, 231, 231);
   font-family: "Roboto", sans-serif;
-}
-
-.om_mig li {
   font-size: 1.5rem;
 }
 
