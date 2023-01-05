@@ -125,7 +125,9 @@ main a {
 }
 
 .web a:hover,
-.ux a:hover {
+.ux a:hover,
+.animation a:hover,
+.indhold a:hover {
   font-style: italic;
 }
 
