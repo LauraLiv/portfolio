@@ -49,10 +49,6 @@ main {
   color: white;
 }
 
-.web .web_img {
-  border: 0.1px solid white;
-}
-
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -73,22 +69,12 @@ p {
   line-height: 1.6;
 }
 
-main a {
-  font-size: 2rem;
-  text-align: right;
-}
-
-.web a:hover,
-.ux a:hover {
-  font-style: italic;
-}
-
 .grid_1_1,
 .grid_2_1,
 .grid_1_2,
 .grid_2_1_1,
 .grid_1_3 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .col {
@@ -110,7 +96,7 @@ main a {
 }
 
 .margin_portfolio {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .portfolio .grid_1_1 {
@@ -132,6 +118,20 @@ main a {
 }
 
 /*************** web,ux,animation,indhold *********************/
+
+main a {
+  font-size: 2rem;
+  text-align: right;
+}
+
+.web a:hover,
+.ux a:hover {
+  font-style: italic;
+}
+
+.web .web_img {
+  border: 0.1px solid white;
+}
 
 /*************** om_mig *********************/
 
