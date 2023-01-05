@@ -49,8 +49,8 @@ main {
   color: white;
 }
 
-img {
-  border: 1px solid white;
+.web_img {
+  border: 0.1px solid white;
 }
 
 h1 {
@@ -67,7 +67,7 @@ h3 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 main a {
@@ -119,6 +119,19 @@ main a {
 /*************** web,ux,animation,indhold *********************/
 
 /*************** om_mig *********************/
+
+.om_mig h2 {
+  text-align: center;
+}
+
+.om_mig p {
+  color: rgb(238, 231, 231);
+  font-family: "Roboto", sans-serif;
+}
+
+.om_mig li {
+  font-size: 1.5rem;
+}
 
 /*************** process *********************/
 
