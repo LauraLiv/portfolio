@@ -49,7 +49,7 @@ main {
   color: white;
 }
 
-.web_img {
+.web .web_img {
   border: 0.1px solid white;
 }
 
@@ -67,7 +67,10 @@ h3 {
 }
 
 p {
+  color: rgb(238, 231, 231);
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 main a {
@@ -85,11 +88,11 @@ main a {
 .grid_1_2,
 .grid_2_1_1,
 .grid_1_3 {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .col {
-  padding: 10px 10px;
+  padding: 15px;
 }
 
 /*************** portfolio *********************/
@@ -98,17 +101,29 @@ main a {
   filter: brightness(30%);
 }
 
+.portfolio img {
+  border: 0.1px solid white;
+}
+
 .portfolio .col {
   position: relative;
 }
 
-.portfolio .col p {
+.margin_portfolio {
+  margin-top: 20px;
+}
+
+.portfolio .grid_1_1 {
+  margin-top: 0px;
+}
+
+.portfolio .col h2 {
   position: absolute;
   display: none;
   font-size: 5rem;
 }
 
-.portfolio .col:hover p {
+.portfolio .col:hover h2 {
   display: block;
   top: 50%;
   left: 50%;
@@ -122,16 +137,29 @@ main a {
 
 .om_mig h2 {
   text-align: center;
+  font-size: 3rem;
 }
 
-.om_mig p,
-.om_mig li {
+.om_mig ul {
   color: rgb(238, 231, 231);
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-left: 25px;
+}
+
+.first {
+  margin-bottom: 50px;
   font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 /*************** process *********************/
+
+/*************** index *********************/
+
+#overflow {
+  overflow: hidden;
+  position: relative;
+}
 
 /*************** assets *********************/
 
