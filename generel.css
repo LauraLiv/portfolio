@@ -16,8 +16,6 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   background-color: black;
-  background-image: url(assets/baggrund_om_mig.svg);
-  background-size: cover;
 }
 
 /*************** header *********************/
@@ -129,7 +127,8 @@ p {
 
 main a {
   font-size: 2rem;
-  text-align: right;
+  text-align: end;
+  display: block;
 }
 
 .web a:hover,
