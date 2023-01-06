@@ -16,6 +16,8 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   background-color: black;
+  background-image: url(assets/baggrund_om_mig.svg);
+  background-size: cover;
 }
 
 /*************** header *********************/
@@ -25,6 +27,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   padding: 5px 30px;
+  background-color: black;
 }
 
 .logo {
