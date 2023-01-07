@@ -170,6 +170,18 @@ main a {
 
 /*************** process *********************/
 
+.process a {
+  font-size: 2.2rem;
+}
+
+.process a:hover {
+  font-style: italic;
+}
+
+.process img {
+  border: 0.1px solid white;
+}
+
 /*************** index *********************/
 
 #overflow {
