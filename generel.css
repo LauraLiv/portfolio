@@ -60,31 +60,27 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  padding: 15px;
+  margin-top: 50px;
 }
 
 p {
   color: rgb(238, 231, 231);
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-bottom: 10px;
 }
 
 .intro p {
-  font-size: 1.6rem;
-}
-
-.grid_1_1,
-.grid_2_1,
-.grid_1_2,
-.grid_2_1_1,
-.grid_1_3 {
-  margin-top: 30px;
+  font-size: 1.4rem;
+  margin-top: 20px;
 }
 
 .col,
 .intro {
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 /*************** portfolio *********************/
@@ -127,7 +123,6 @@ p {
 
 main a {
   font-size: 2rem;
-  text-align: end;
   display: block;
 }
 
@@ -149,16 +144,28 @@ main a {
   font-size: 3rem;
 }
 
+.om_mig h3 {
+  margin-top: 0px;
+}
+
 .om_mig ul {
   color: rgb(238, 231, 231);
   font-family: "PT Sans Narrow", sans-serif;
-  margin-left: 25px;
+  padding-left: 40px;
 }
 
 .first {
   margin-bottom: 50px;
   font-size: 1.5rem;
   line-height: 1.6;
+}
+
+.om_mig .grid_1_1 {
+  margin-top: 20px;
+}
+
+.om_mig p {
+  font-size: 1.4rem;
 }
 
 /*************** process *********************/
