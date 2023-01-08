@@ -35,21 +35,4 @@ main {
 }
 
 @media (max-width: 850px) {
-  .menu {
-    display: none;
-  }
-
-  .menu {
-    display: block;
-    cursor: pointer;
-  }
-
-  .menu ul:hover {
-    list-style: none;
-    display: block;
-  }
-
-  .menu a {
-    color: white;
-  }
 }
