@@ -7,7 +7,7 @@ main {
   margin: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -31,5 +31,25 @@ main {
   .grid_1_3 {
     display: grid;
     grid-template-columns: 1fr 3fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu ul:hover {
+    list-style: none;
+    display: block;
+  }
+
+  .menu a {
+    color: white;
   }
 }
