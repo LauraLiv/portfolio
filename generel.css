@@ -16,7 +16,6 @@ img {
 body {
   font-family: "Oswald", sans-serif;
   background-color: black;
-  background-image: url(assets/baggrund_om_mig.svg);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -82,12 +81,13 @@ h3 {
 p {
   color: rgb(238, 231, 231);
   font-family: "Mulish", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.4;
   padding-bottom: 10px;
 }
 
 .intro p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 30px;
 }
 
@@ -98,12 +98,20 @@ p {
 
 /*************** portfolio *********************/
 
+#portfolio {
+  background-image: url(assets/baggrund_portfolio.svg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
 .portfolio .col:hover img {
   filter: brightness(30%);
 }
 
 .portfolio img {
   border: 0.1px solid white;
+  filter: contrast(90%);
 }
 
 .portfolio .col {
@@ -131,6 +139,13 @@ p {
 
 /*************** web,ux,animation,indhold *********************/
 
+body {
+  background-image: url(assets/baggrund_.svg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
 main a {
   font-size: 2rem;
   display: block;
@@ -148,6 +163,13 @@ main a {
 }
 
 /*************** om_mig *********************/
+
+#om_mig {
+  background-image: url(assets/baggrund_om_mig.svg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
 
 .om_mig h2 {
   text-align: center;
@@ -171,18 +193,30 @@ main a {
   line-height: 1.6;
 }
 
-.om_mig .grid_1_1 {
+#margin_om_mig {
   margin-top: 30px;
 }
 
 .om_mig p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+}
+
+.om_mig .grid_1_1 {
+  margin-top: 70px;
 }
 
 /*************** process *********************/
 
+#process {
+  background-image: url(assets/baggrund.svg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
 .process a {
-  font-size: 2.9rem;
+  font-size: 2.8rem;
+  text-align: center;
 }
 
 .process a:hover {
