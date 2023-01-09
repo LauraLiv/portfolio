@@ -140,7 +140,7 @@ p {
 /*************** web,ux,animation,indhold *********************/
 
 body {
-  background-image: url(assets/baggrund_.svg);
+  background-image: url(assets/baggrund.svg);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -208,7 +208,7 @@ main a {
 /*************** process *********************/
 
 #process {
-  background-image: url(assets/baggrund.svg);
+  background-image: url(assets/baggrund_process.svg);
   width: 100%;
   height: 100%;
   background-size: cover;
