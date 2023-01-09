@@ -98,17 +98,6 @@ p {
 
 /*************** portfolio *********************/
 
-#portfolio {
-  background-image: url(assets/baggrund_portfolio.svg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-.portfolio .col:hover img {
-  filter: brightness(30%);
-}
-
 .portfolio img {
   border: 0.1px solid white;
   filter: contrast(90%);
@@ -123,39 +112,15 @@ p {
   margin-top: 30px;
 }
 
-.portfolio .col h2 {
-  position: absolute;
-  display: none;
-  font-size: 5rem;
-}
-
-.portfolio .col:hover h2 {
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.portfolio h2 {
   text-align: center;
 }
 
 /*************** web,ux,animation,indhold *********************/
 
-body {
-  background-image: url(assets/baggrund.svg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
 main a {
   font-size: 2rem;
   display: block;
-}
-
-.web a:hover,
-.ux a:hover,
-.animation a:hover,
-.indhold a:hover {
-  font-style: italic;
 }
 
 .web .web_img {
@@ -164,11 +129,10 @@ main a {
 
 /*************** om_mig *********************/
 
-#om_mig {
-  background-image: url(assets/baggrund_om_mig.svg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+.om_mig ul {
+  color: rgb(238, 231, 231);
+  font-family: "PT Sans Narrow", sans-serif;
+  padding-left: 40px;
 }
 
 .om_mig h2 {
@@ -179,12 +143,6 @@ main a {
 .om_mig h3 {
   margin-top: 0px;
   font-size: 2rem;
-}
-
-.om_mig ul {
-  color: rgb(238, 231, 231);
-  font-family: "PT Sans Narrow", sans-serif;
-  padding-left: 40px;
 }
 
 .first {
@@ -201,26 +159,15 @@ main a {
   font-size: 1.3rem;
 }
 
-.om_mig .grid_1_1 {
-  margin-top: 70px;
-}
-
 /*************** process *********************/
-
-#process {
-  background-image: url(assets/baggrund_process.svg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
 
 .process a {
   font-size: 2.8rem;
   text-align: center;
 }
 
-.process a:hover {
-  font-style: italic;
+.process .grid_2_1 {
+  margin-top: 70px;
 }
 
 .process img {
@@ -229,11 +176,6 @@ main a {
 
 .process .grid_1_2 {
   margin-top: 30px;
-  text-align: end;
-}
-
-.process .grid_2_1 {
-  margin-top: 70px;
 }
 
 /*************** index *********************/

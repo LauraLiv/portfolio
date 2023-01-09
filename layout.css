@@ -7,7 +7,73 @@ main {
   margin: auto;
 }
 
+@media (max-width: 850px) {
+  /*************** burger menu *********************/
+
+  #burger_knap {
+    position: relative;
+    cursor: pointer;
+    margin-left: 65px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: white;
+  }
+
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: -200px;
+    transform: translateY(100%);
+    gap: 0;
+    text-align: end;
+    z-index: 100;
+    background-color: black;
+  }
+
+  .vismenu {
+    transform: translateY(250px);
+    margin: 0;
+  }
+
+  /*************** responsivt *********************/
+
+  .process a {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  #lilla_container {
+    position: absolute;
+    width: 90%;
+    aspect-ratio: 2580/1300;
+    left: 5%;
+    top: 10%;
+  }
+
+  #groen_container {
+    position: absolute;
+    width: 75%;
+    aspect-ratio: 1985/1030;
+    top: 17%;
+    left: 3%;
+  }
+
+  #navn_container {
+    position: absolute;
+    width: 65%;
+    aspect-ratio: 870/160;
+    top: 80%;
+    left: 34%;
+  }
+}
+
 @media (min-width: 850px) {
+  /*************** body *********************/
+
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -32,37 +98,76 @@ main {
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
-}
 
-/*************** burger menu *********************/
+  /*************** portfolio *********************/
 
-@media (max-width: 850px) {
-  #burger_knap {
-    position: relative;
-    cursor: pointer;
-    margin-left: 65px;
+  #portfolio {
+    background-image: url(assets/baggrund_portfolio.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
   }
 
-  .bar {
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background: white;
+  .portfolio .col:hover img {
+    filter: brightness(30%);
   }
 
-  nav ul {
-    flex-direction: column;
+  .portfolio .col h2 {
     position: absolute;
-    top: -200px;
-    transform: translateY(100%);
-    gap: 0;
-    text-align: end;
-    z-index: 100;
+    display: none;
+    font-size: 5rem;
   }
 
-  .vismenu {
-    transform: translateY(250px);
+  .portfolio .col:hover h2 {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-    margin: 0;
+  /*************** web,ux,animation,indhold *********************/
+
+  body {
+    background-image: url(assets/baggrund.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .web a:hover,
+  .ux a:hover,
+  .animation a:hover,
+  .indhold a:hover {
+    font-style: italic;
+  }
+
+  /*************** om_mig *********************/
+
+  #om_mig {
+    background-image: url(assets/baggrund_om_mig.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .om_mig .grid_1_1 {
+    margin-top: 70px;
+  }
+
+  /*************** process *********************/
+
+  #process {
+    background-image: url(assets/baggrund_process.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .process a:hover {
+    font-style: italic;
+  }
+
+  .process .grid_1_2 {
+    text-align: end;
   }
 }
