@@ -1,5 +1,5 @@
-var lillaContainer = document.querySelector("#lilla_container");
-var groencontainer = document.querySelector("#groen_container");
+const lillaContainer = document.querySelector("#lilla_container");
+const groencontainer = document.querySelector("#groen_container");
 
 window.addEventListener("load", sidenVises);
 

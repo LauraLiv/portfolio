@@ -34,5 +34,35 @@ main {
   }
 }
 
+/*************** burger menu *********************/
+
 @media (max-width: 850px) {
+  #burger_knap {
+    position: relative;
+    cursor: pointer;
+    margin-left: 65px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: white;
+  }
+
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: -200px;
+    transform: translateY(100%);
+    gap: 0;
+    text-align: end;
+    z-index: 100;
+  }
+
+  .vismenu {
+    transform: translateY(250px);
+
+    margin: 0;
+  }
 }
